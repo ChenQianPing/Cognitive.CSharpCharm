@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Offer\MatrixFind\MatrixFind.cs" />
+    <Compile Include="Offer\Singleton\Singleton1.cs" />
+    <Compile Include="Offer\Singleton\Singleton2.cs" />
+    <Compile Include="Offer\Singleton\Singleton3.cs" />
+    <Compile Include="Offer\Singleton\Singleton4.cs" />
+    <Compile Include="Offer\Singleton\Singleton5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
