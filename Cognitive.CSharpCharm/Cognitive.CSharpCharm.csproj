@@ -43,18 +43,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithm\A01.cs" />
     <Compile Include="Offer\MatrixFind\MatrixFind.cs" />
     <Compile Include="Offer\Singleton\Singleton1.cs" />
     <Compile Include="Offer\Singleton\Singleton2.cs" />
     <Compile Include="Offer\Singleton\Singleton3.cs" />
     <Compile Include="Offer\Singleton\Singleton4.cs" />
     <Compile Include="Offer\Singleton\Singleton5.cs" />
+    <Compile Include="Patterns\FactoryPattern\Factory01\FactoryManager.cs" />
+    <Compile Include="Patterns\FactoryPattern\Factory01\IFactory.cs" />
+    <Compile Include="Patterns\FactoryPattern\Factory01\Roof.cs" />
+    <Compile Include="Patterns\FactoryPattern\Factory01\RoofFactory.cs" />
+    <Compile Include="Patterns\FactoryPattern\Factory02\Factory.cs" />
+    <Compile Include="Patterns\FactoryPattern\Factory02\FactoryManager.cs" />
+    <Compile Include="Patterns\FactoryPattern\Factory02\IProduct.cs" />
+    <Compile Include="Patterns\FactoryPattern\Factory02\ProductAttribute.cs" />
+    <Compile Include="Patterns\FactoryPattern\Factory02\RoomParts.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
