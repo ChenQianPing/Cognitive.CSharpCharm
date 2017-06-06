@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithm\A01.cs" />
+    <Compile Include="Algorithm\A02.cs" />
     <Compile Include="Offer\MatrixFind\MatrixFind.cs" />
     <Compile Include="Offer\Singleton\Singleton1.cs" />
     <Compile Include="Offer\Singleton\Singleton2.cs" />

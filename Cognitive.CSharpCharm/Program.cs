@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,8 +14,23 @@ namespace Cognitive.CSharpCharm
         static void Main(string[] args)
         {
             // TestFactory02();
-            A01.A0101();
-            A01.A0102();
+            // A01.A0101();
+            // A01.A0102();
+            var sw = new Stopwatch();
+
+            sw.Start();
+            var sum1 = A02.SumPeach(1);
+            sw.Stop();
+            Console.WriteLine($"第一天摘得桃子有:{sum1}，共用时{sw.Elapsed}");
+
+            sw.Start();
+            var sum2 = A02.SumPeachTail(1, 1);
+            sw.Stop();
+            Console.WriteLine($"第一天摘得桃子有:{sum2}，共用时{sw.Elapsed}");
+
+            A02.SimpleCycle();
+
+            Console.Read();
         }
 
         public static void TestFactory02()
