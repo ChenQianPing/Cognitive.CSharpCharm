@@ -33,6 +33,7 @@ namespace Cognitive.CSharpCharm
             Console.Read();
         }
 
+        /*
         public static void TestFactory02()
         {
             // 根据需要获得不同的产品零件
@@ -47,6 +48,7 @@ namespace Cognitive.CSharpCharm
 
             Console.ReadKey();
         }
+        */
 
 
 
