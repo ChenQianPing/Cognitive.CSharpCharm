@@ -16,6 +16,10 @@ namespace Cognitive.CSharpCharm
             // TestFactory02();
             // A01.A0101();
             // A01.A0102();
+
+            A03.A0301();
+
+            /*
             var sw = new Stopwatch();
 
             sw.Start();
@@ -31,6 +35,7 @@ namespace Cognitive.CSharpCharm
             A02.SimpleCycle();
 
             Console.Read();
+            */
         }
 
         /*
